@@ -1,0 +1,72 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    outline: 5px solid gold;
+    border-radius: 5px;
+    
+}
+
+label1 {
+    padding: 0%;
+    margin-bottom: 30px;
+    margin-top: 20;
+}
+
+form {
+    text-align: center;
+    padding: 30px;
+    border: 5px;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+.forget-password {
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 3px;
+    margin-bottom: 20px;
+    
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 15px;
+    width: 12%;
+}
+
+.need-help {
+    display: inline-block;
+    text-align: center;
+    margin: 18px;
+    font-size: 3px;
+}
+
+footer {
+    text-align: center;
+    font-style: oblique;
+    
+}
+
+p {
+    color: red;
+}
