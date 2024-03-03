@@ -16,16 +16,20 @@ h1 {
 h3 {
     color: black;
     text-align: center;
+    font-size: 30px;
+    justify-content: left;
     padding: 20px;
-    outline: 5px solid gold;
-    border-radius: 5px;
-    
+    margin-top: -4%;
+    position: absolute;
+    left: 41%;
+    z-index: 22;
 }
 
 label1 {
     padding: 0%;
     margin-bottom: 30px;
     margin-top: 20;
+    max-width: 20;
 }
 
 form {
@@ -37,12 +41,15 @@ form {
 }
 
 .forget-password {
-    text-align: center;
+    justify-content: right;
+    float: right;
     padding: 10px;
     padding-top: 5px;
-    font-size: 3px;
-    margin-bottom: 20px;
-    
+    font-size: 1px;
+    position: fixed;
+    display: block;
+    left: 41%;
+    z-index: 22;
 }
 
 button {
@@ -51,14 +58,58 @@ button {
     padding: 5px;
     border-radius: 10px;
     margin: 15px;
-    width: 12%;
+    width: 18%;
 }
 
 .need-help {
-    display: inline-block;
+    
     text-align: center;
-    margin: 18px;
+    justify-content: left;
+    padding: 20px;
+    margin-top: -18px;
     font-size: 3px;
+    position: absolute;
+    left: 0;
+    z-index: 22;
+}
+
+h4{
+    margin: 100px auto;
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+    max-width: 520px;
+    position: relative;
+}
+
+h4::before{
+    content: "";
+    display: block;
+    color: gray;
+    width: 120px;
+    height: 1px;
+    background: #515151;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+h4::after{
+    content: "";
+    display: block;
+    color: gray;
+    width: 120px;
+    height: 1px;
+    background: #515151;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+span{
+    background: #fff;
 }
 
 footer {
