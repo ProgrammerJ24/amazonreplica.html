@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: white;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h3 {
 
 label1 {
     padding: 0%;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     margin-top: 20;
     max-width: 20;
 }
@@ -66,7 +66,7 @@ button {
     text-align: center;
     justify-content: left;
     padding: 20px;
-    margin-top: -18px;
+    margin-top: 180px;
     font-size: 3px;
     position: absolute;
     left: 0;
@@ -80,6 +80,7 @@ h4{
     font-size: 40px;
     max-width: 520px;
     position: relative;
+    margin-top: 180px;
 }
 
 h4::before{
